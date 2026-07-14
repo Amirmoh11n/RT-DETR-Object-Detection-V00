@@ -44,22 +44,18 @@ and other common object classes.
 
 ```text
 RTDETR-Object-Detection/
-
-├── dataset/
-│   ├── images/
-│   └── annotations/
+│
+├── data/
+│   └── dataset.py
 │
 ├── models/
+│   └── rtdetr.py
 │
-├── training/
-│
-├── inference/
-│
-├── outputs/
-│
+├── train.py
+├── predict.py
 ├── requirements.txt
-│
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ## Training Workflow
