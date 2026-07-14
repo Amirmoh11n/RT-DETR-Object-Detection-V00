@@ -1,0 +1,1 @@
+transformer , torch , torchvision , pathlib , tqdm
